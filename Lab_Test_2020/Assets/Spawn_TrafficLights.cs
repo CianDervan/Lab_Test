@@ -19,14 +19,10 @@ public class Spawn_TrafficLights : MonoBehaviour
             float angleDegrees = -angle * Mathf.Rad2Deg;
             Quaternion rot = Quaternion.Euler(0, angleDegrees, 0);
             Instantiate(cylinder, pos, rot);
-
         }
     }
 
-    private void Update()
-    {
 
-    }
 
 }
 
